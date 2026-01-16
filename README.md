@@ -1,2 +1,34 @@
-# spotify-analytics
-A full-stack Spotify analytics web app that visualizes listening habits like top artists, tracks, and genres over time.
+# 📊 Spotify Analytics (WIP)
+
+A full-stack web application that visualizes **Spotify listening data**, such as
+top artists, tracks, and genres over different time ranges (daily, monthly, yearly).
+
+Inspired by Spotify Wrapped, but available anytime.
+
+---
+
+## ✨ Features
+- 🔐 Spotify OAuth login
+- 🥇 #1 most-listened artist & track
+- 📈 Listening stats by day / month / year
+- 🎧 Top artists, tracks, and genres
+- 📊 Clean, dashboard-style UI
+
+---
+
+## 🛠 Tech Stack
+- Next.js (React)
+- Node.js (API routes)
+- Spotify Web API
+- Charting library (TBD)
+
+---
+
+## ⚠️ Disclaimer
+This is a **non-commercial educational project**.
+Spotify content and trademarks belong to Spotify AB.
+
+---
+
+## 🚧 Status
+Currently in early development.
