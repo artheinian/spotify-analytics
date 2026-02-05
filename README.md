@@ -32,3 +32,7 @@ Spotify content and trademarks belong to Spotify AB.
 
 ## 🚧 Status
 Currently in early development.
+
+Features to be implemented:
+- Be able to view the most listened song, favorite artist, and know the genre of EACH playlist
+
