@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import AuthGuard from "../components/AuthGuard"
 
 
 export default function Dashboard() {
@@ -14,17 +15,21 @@ export default function Dashboard() {
 
 
     return (
-        <div style={{ padding: 24 }}>
-            <h1>Welcome, {profile.display_name}</h1>
+        <AuthGuard>
+            <div style={{ padding: 24 }}>
+                <h1>Welcome, {profile.display_name}</h1>
 
-            {profile.images?.[0] && (
-                <img
-                    src={profile.images[0].url}
-                    alt="Profile"
-                    width={120}
-                    style={{ borderRadius: "50%" }}
-                />
-            )}
-        </div>
+                {profile.images?.[0] && (
+                    <img
+                        src={profile.images[0].url}
+                        alt="Profile"
+                        width={120}
+                        style={{ borderRadius: "50%" }}
+                    />
+                )}
+            </div>
+
+        </AuthGuard>
+
     );
 }
